@@ -7,13 +7,15 @@ Question 3: After creating the first view within polls, what does the browser sh
 -> First we see Page not Found, Then we see page that displays "Hello, world. You're at the polls index."
 
 Question 4: What is a Django migration and why do we need them?
-->
+-> Migrations are a way of adding all the changes made and it is important so that the models reflect the changes.
 
-Question 5: What do you see after you log into the Django adminstration site? From a high levle, how do you get custom models to appear in the Django admin page?
-->
+Question 5: What do you see after you log into the Django adminstration site? From a high level, how do you get custom models to appear in the Django admin page?
+-> We see the admin page which can be accessed by creating a super user. 
 
 Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? What happens when you don’t put a number, and instead use a string? How would you modify the urls.py file to allow arbitrary alphabetic characters?
-->
+-> /polls/38/ : the message 'You're looking at question 38' will be displayed
+    /polls/38/results : the message 'You're looking at the results of question 38' will be displayed
+     /polls/38/vote : the message "You're voting on question 38" will be displayed 
 
 Question 7: Why is it a bad idea to hardcode urls into the templates?
 ->
